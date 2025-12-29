@@ -15,11 +15,9 @@
   --pad-bottom: 18px;
   --logo-w: 130px;
 
-  /* ✅ MODIFICA: title responsive (no overflow) */
-  --title-size: clamp(34px, 7vw, 52px);
+ --title-size: clamp(26px, 5.8vw, 44px);      /* ✅ più piccolo */
+--img-size: clamp(150px, 24vh, 220px);       /* ✅ avatar molto più piccolo */
 
-  /* ✅ MODIFICA: avatar size responsive su altezza (non spinge giù) */
-  --img-size: clamp(220px, 36vh, 320px);
 
   /* track shared */
   --track-gap: 18px;
@@ -68,12 +66,14 @@ body{
 .top{
   flex: 0 0 auto;
   text-align:center;
+  padding-top: 10px; /* ✅ spinge giù logo + titolo */
 }
+
 .logo{
   width: var(--logo-w);
   height:auto;
   display:block;
-  margin: 6px auto 14px;
+  margin: 6px auto 20px;
   opacity: .95;
 }
 
