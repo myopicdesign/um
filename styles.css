@@ -14,21 +14,23 @@
   --pad-top: 14px;
   --pad-bottom: 18px;
   --logo-w: 130px;
-  --title-size: 52px;
 
-  /* avatar */
-  --img-size: min(62vw, 320px);
+  /* ✅ MODIFICA: title responsive (no overflow) */
+  --title-size: clamp(34px, 7vw, 52px);
+
+  /* ✅ MODIFICA: avatar size responsive su altezza (non spinge giù) */
+  --img-size: clamp(220px, 36vh, 320px);
 
   /* track shared */
   --track-gap: 18px;
   --track-pad: 18px;
 
-  /* ✅ INDICATORE reference-like (molto più piccolo + più barre visibili) */
-  --mask-h: 128px;     /* ↓ prima era troppo alto */
-  --bar-h: 108px;      /* ↓ */
-  --bar-w: 2px;        /* ↓ più sottile = più barre */
-  --bar-gap: 6px;      /* ↓ più denso = più barre ai lati */
-  --bars-pad: 26px;    /* ↓ meno padding = vedi più barre */
+  /* ✅ INDICATORE reference-like */
+  --mask-h: 128px;
+  --bar-h: 108px;
+  --bar-w: 2px;
+  --bar-gap: 6px;
+  --bars-pad: 26px;
 
   /* pills */
   --pill-h: 58px;
@@ -75,8 +77,10 @@ body{
   filter: invert(1);
   opacity: .95;
 }
+
+/* ✅ MODIFICA: tolto padding 10% che sballava tutto */
 .title{
-  padding: 10%;
+  padding: 0 6px;
   margin:0;
   font-family: "DM Serif Display", serif;
   font-weight: 400;
@@ -85,17 +89,12 @@ body{
   letter-spacing: .2px;
 }
 
-/* ✅ LAYOUT “a righe” come webapp:
-   - avatar prende la parte centrale
-   - indicatore + pills sempre visibili e vicini
-*/
+/* LAYOUT */
 .layout{
-  
   min-height: 0;
-    display: grid;
-    row-gap: 10px;
-
-    align-content: center;
+  display: grid;
+  row-gap: 10px;
+  align-content: center;
 }
 
 /* AVATAR */
@@ -107,10 +106,11 @@ body{
   touch-action: pan-y;
   user-select:none;
 
-  /* controlla l'altezza per non rubare spazio alle pills */
-  height: min(46vh, calc(var(--img-size) + 34px));
+  /* ✅ MODIFICA: evita che rubi spazio verticale */
+  height: min(40vh, calc(var(--img-size) + 24px));
   align-self:end;
 }
+
 .avatars-track{
   position:absolute;
   inset: 0 auto 0 0;
@@ -144,7 +144,7 @@ body{
   transform: scale(1);
 }
 
-/* INDICATORE (TUO) */
+/* INDICATORE */
 .mask{
   width:100%;
   height: var(--mask-h);
@@ -177,7 +177,7 @@ body{
   display:flex;
   align-items:flex-end;
   gap: var(--bar-gap);
-  padding: 8px var(--bars-pad);   /* ↓ meno padding */
+  padding: 8px var(--bars-pad);
   will-change:transform;
   z-index:1;
 }
@@ -208,7 +208,7 @@ body{
   pointer-events:none;
 }
 
-/* PILLS (SUBITO SOTTO, come reference) */
+/* PILLS */
 .selector{
   position:relative;
   height: var(--pill-h);
