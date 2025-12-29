@@ -90,11 +90,19 @@ body{
 
 /* LAYOUT */
 .layout{
+  flex: 1 1 auto;        /* riempie lo spazio sotto l’header */
   min-height: 0;
+
   display: grid;
-  row-gap: 6px;          /* ✅ prima 10px */
-  align-content: center;
+  grid-template-rows: 1fr auto auto; /* avatar al centro, poi mask, poi pills */
+  row-gap: 8px;
+
+  align-content: stretch;
+
+  /* ✅ fa scendere tutto il blocco (testo→avatar→labels) */
+  padding-top: clamp(18px, 5vh, 64px);
 }
+
 
 
 /* AVATAR */
@@ -106,9 +114,10 @@ body{
   touch-action: pan-y;
   user-select:none;
 
-  height: min(30vh, calc(var(--img-size) + 16px)); /* ✅ prima 40vh */
-  align-self:end;
+  height: min(30vh, calc(var(--img-size) + 16px));
+  align-self: center;   /* ✅ prima era end: ora sta in mezzo */
 }
+
 
 
 .avatars-track{
