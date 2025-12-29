@@ -92,9 +92,10 @@ body{
 .layout{
   min-height: 0;
   display: grid;
-  row-gap: 10px;
+  row-gap: 6px;          /* ✅ prima 10px */
   align-content: center;
 }
+
 
 /* AVATAR */
 .avatars-viewport{
@@ -105,10 +106,10 @@ body{
   touch-action: pan-y;
   user-select:none;
 
-  /* ✅ MODIFICA: evita che rubi spazio verticale */
-  height: min(40vh, calc(var(--img-size) + 24px));
+  height: min(30vh, calc(var(--img-size) + 16px)); /* ✅ prima 40vh */
   align-self:end;
 }
+
 
 .avatars-track{
   position:absolute;
