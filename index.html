@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Looply – Mood</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="app">
+    <header class="top">
+      <img
+        class="logo"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Logo_black.svg/512px-Logo_black.svg.png"
+        alt="Looply"
+      />
+      <h1 class="title">Ciao Fabri,<br>come stai oggi?</h1>
+    </header>
+
+    <main class="layout">
+      <!-- AVATAR -->
+      <section class="avatars-viewport" id="avatarsViewport" aria-label="Immagini stati d'animo">
+        <div class="avatars-track" id="avatarsTrack"></div>
+      </section>
+
+      <!-- INDICATORE -->
+      <section class="mask" id="mask" aria-hidden="true">
+        <div class="track" id="barsTrack"></div>
+        <div class="center"></div>
+      </section>
+
+      <!-- LABELS (SUBITO SOTTO) -->
+      <section class="selector" id="selector" aria-label="Selettore stati d'animo">
+        <div class="highlight" id="highlight"></div>
+        <div class="labels-viewport">
+          <div class="labels-track" id="labelsTrack"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- POPUP GLASS -->
+    <div id="modal" class="modal" aria-hidden="true">
+      <div class="modal-card" role="dialog" aria-modal="true">
+        <button id="closeModal" class="modal-close" aria-label="Chiudi">✕</button>
+        <div class="modal-title">Un consiglio<br>dal te del passato:</div>
+        <div id="modalText" class="modal-text">“…”</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
