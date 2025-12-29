@@ -1,14 +1,14 @@
 const moods = [
-  { label:"Ansioso",    accent:"#74f79a", img:"https://picsum.photos/900/900?1"  },
-  { label:"Curioso",    accent:"#74f79a", img:"https://picsum.photos/900/900?2"  },
-  { label:"Dopaminico", accent:"#ffd35a", img:"https://picsum.photos/900/900?3"  },
-  { label:"Timoroso",   accent:"#ff7ad9", img:"https://picsum.photos/900/900?4"  },
-  { label:"Rilassato",  accent:"#74f79a", img:"https://picsum.photos/900/900?5"  },
-  { label:"Motivato",   accent:"#ffd35a", img:"https://picsum.photos/900/900?6"  },
-  { label:"Nostalgico", accent:"#78a6ff", img:"https://picsum.photos/900/900?7"  },
-  { label:"Incerto",    accent:"#b892ff", img:"https://picsum.photos/900/900?8"  },
-  { label:"Spompato",   accent:"#ff8e6b", img:"https://picsum.photos/900/900?9"  },
-  { label:"Felice",     accent:"#ffd35a", img:"https://picsum.photos/900/900?10" },
+  { label:"Ansioso",    accent:"#74f79a", img:"assets/avatar/sorpreso.png" },
+  { label:"Curioso",    accent:"#74f79a", img:"assets/avatar/sorpreso.png" },
+  { label:"Dopaminico", accent:"#ffd35a", img:"assets/avatar/sorpreso.png" },
+  { label:"Timoroso",   accent:"#ff7ad9", img:"assets/avatar/sorpreso.png" },
+  { label:"Rilassato",  accent:"#74f79a", img:"assets/avatar/sorpreso.png" },
+  { label:"Motivato",   accent:"#ffd35a", img:"assets/avatar/sorpreso.png" },
+  { label:"Nostalgico", accent:"#78a6ff", img:"assets/avatar/sorpreso.png" },
+  { label:"Incerto",    accent:"#b892ff", img:"assets/avatar/sorpreso.png" },
+  { label:"Spompato",   accent:"#ff8e6b", img:"assets/avatar/sorpreso.png" },
+  { label:"Felice",     accent:"#ffd35a", img:"assets/avatar/sorpreso.png" },
 ];
 
 const mask = document.getElementById("mask");
