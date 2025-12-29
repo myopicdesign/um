@@ -15,7 +15,8 @@
   --pad-bottom: 18px;
   --logo-w: 130px;
 
- --title-size: clamp(26px, 5.8vw, 44px);      /* ✅ più piccolo */
+ --title-size: clamp(30px, 6.6vw, 48px);
+     /* ✅ più piccolo */
 --img-size: clamp(150px, 24vh, 220px);       /* ✅ avatar molto più piccolo */
 
 
@@ -73,8 +74,9 @@ body{
   width: var(--logo-w);
   height:auto;
   display:block;
-  margin: 6px auto 20px;
+ 
   opacity: .95;
+margin: 6px auto 6px;  /* ⬅️ prima 10+ */
 }
 
 /* ✅ MODIFICA: tolto padding 10% che sballava tutto */
@@ -86,21 +88,19 @@ body{
   font-size: var(--title-size);
   line-height: .95;
   letter-spacing: .2px;
+  margin-top: 30px;  
 }
 
 /* LAYOUT */
 .layout{
-  flex: 1 1 auto;        /* riempie lo spazio sotto l’header */
+  flex: 1 1 auto;
   min-height: 0;
 
   display: grid;
-  grid-template-rows: 1fr auto auto; /* avatar al centro, poi mask, poi pills */
-  row-gap: 8px;
+  grid-template-rows: 1fr auto auto;
+  row-gap: 4px; /* ⬅️ prima 8 */
 
-  align-content: stretch;
-
-  /* ✅ fa scendere tutto il blocco (testo→avatar→labels) */
-  padding-top: clamp(18px, 5vh, 64px);
+  padding-top: clamp(8px, 2.2vh, 28px); /* ⬅️ prima molto più alto */
 }
 
 
@@ -161,7 +161,7 @@ body{
   overflow:hidden;
   border-radius: 22px;
   background:transparent;
-
+ margin-top: -10px; /* ✅ avvicina la barra agli avatar */
   --mask-svg:url("data:image/svg+xml;utf8,\
 <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 300' preserveAspectRatio='none'>\
 <path fill='white' d='M0,300 L0,220 L40,220 C220,200 360,140 470,70 C488,58 495,46 499,36 L500,34 L501,36 C505,46 512,58 530,70 C640,140 780,200 960,220 L1000,220 L1000,300 Z'/>\
@@ -178,6 +178,7 @@ body{
   mask-position:center;
 
   touch-action: pan-y;
+    
 }
 
 .track{
@@ -225,7 +226,7 @@ body{
   align-items:center;
   justify-content:center;
   user-select:none;
-  margin-top: 0;
+    margin-top: -6px; /* ✅ meno spazio tra barra e pills */
 }
 
 .highlight{
