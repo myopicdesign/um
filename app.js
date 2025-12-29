@@ -1,14 +1,14 @@
 const moods = [
-  { label:"Ansioso",    accent:"#74f79a", img:"assets/avatar/sorpreso.png" },
-  { label:"Curioso",    accent:"#74f79a", img:"assets/avatar/sorpreso.png" },
-  { label:"Dopaminico", accent:"#ffd35a", img:"assets/avatar/sorpreso.png" },
-  { label:"Timoroso",   accent:"#ff7ad9", img:"assets/avatar/sorpreso.png" },
-  { label:"Rilassato",  accent:"#74f79a", img:"assets/avatar/sorpreso.png" },
-  { label:"Motivato",   accent:"#ffd35a", img:"assets/avatar/sorpreso.png" },
-  { label:"Nostalgico", accent:"#78a6ff", img:"assets/avatar/sorpreso.png" },
-  { label:"Incerto",    accent:"#b892ff", img:"assets/avatar/sorpreso.png" },
-  { label:"Spompato",   accent:"#ff8e6b", img:"assets/avatar/sorpreso.png" },
-  { label:"Felice",     accent:"#ffd35a", img:"assets/avatar/sorpreso.png" },
+  { label:"ansioso",    accent:"#74f79a", img:"assets/avatar/ansioso.png" },
+  { label:"disilluso",    accent:"#74f79a", img:"assets/avatar/disilluso.png" },
+  { label:"triste", accent:"#ffd35a", img:"assets/avatar/triste.png" },
+  { label:"incerto",   accent:"#ff7ad9", img:"assets/avatar/incerto.png" },
+  { label:"spompato",  accent:"#74f79a", img:"assets/avatar/spompato.png" },
+  { label:"nostalgico",   accent:"#ffd35a", img:"assets/avatar/nostalgico.png" },
+  { label:"rilassato", accent:"#78a6ff", img:"assets/avatar/rilassato.png" },
+  { label:"curioso",    accent:"#b892ff", img:"assets/avatar/curioso.png" },
+  { label:"dopaminico",   accent:"#ff8e6b", img:"assets/avatar/motivato.png" },
+  { label:"felice",     accent:"#ffd35a", img:"assets/avatar/felice.png" },
 ];
 
 const mask = document.getElementById("mask");
