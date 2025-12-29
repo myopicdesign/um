@@ -339,3 +339,20 @@ margin: 6px auto 6px;  /* ⬅️ prima 10+ */
   padding: 0 10px 6px;
   opacity:.96;
 }
+/* ✅ CENTRA IL GRUPPO E TOGLIE LO SPAZIO VUOTO SOTTO GLI AVATAR */
+.layout{
+  flex: 1 1 auto;
+  min-height: 0;
+
+  display: grid;
+  grid-template-rows: 1fr auto auto auto 1fr; /* spazio sopra e sotto */
+  row-gap: 6px; /* distanza reale tra avatar→mask→labels */
+  align-content: stretch;
+
+  padding-top: 0; /* se avevi padding-top qui, lo annulliamo */
+}
+
+/* mettiamo ogni blocco nella sua riga "auto" centrale */
+.avatars-viewport{ grid-row: 2; }
+.mask{            grid-row: 3; margin-top: 0; }
+.selector{        grid-row: 4; margin-top: 0; }
