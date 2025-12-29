@@ -74,7 +74,6 @@ body{
   height:auto;
   display:block;
   margin: 6px auto 14px;
-  filter: invert(1);
   opacity: .95;
 }
 
@@ -130,9 +129,9 @@ body{
 .avatar{
   width: var(--img-size);
   height: var(--img-size);
-  border-radius: 999px;
+  /*border-radius: 999px;*/
   object-fit: cover;
-  box-shadow: 0 18px 60px rgba(0,0,0,.55);
+  /*box-shadow: 0 18px 60px rgba(0,0,0,.55);*/
   opacity: .28;
   transform: scale(.90);
   transition: transform .22s ease, opacity .22s ease;
