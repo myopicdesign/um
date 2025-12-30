@@ -7,7 +7,11 @@
     "La tensione non ti ha mai tolto lucidità. Hai cantato davanti a centinaia di persone anche quando ti sentivi fuori posto. Se sei in ansia, non isolarti: esporsi un minimo ti calma più di quanto pensi.",
     "L’esposizione ti ha sempre fatto paura, ma non ti ha mai fermato. Hai iniziato a esporti sui social vincendo la timidezza e il giudizio degli altri. Se oggi sei in ansia, non scappare: mostrati anche solo un po’.",
     "L’ansia non ha mai deciso per te. Nel 2013 sei riuscito a conquistare la ragazza più bella della scuola, nonostante le insicurezze. Quando ti senti bloccato, ricordati che puoi agire anche senza sicurezza.",
-    "Espòniti senza darti troppe spiegazioni."
+    "Espòniti senza darti troppe spiegazioni.,
+      "La pressione non ti ha mai fatto mollare.",
+      "Quando una professoressa ti diede da scrivere 500 volte una frase di 5 righe per le vacanze, le portasti il foglio con tutte e 500 le frasi completate. Accettasti l'ansia nel dover completare la sfida.",
+      "Se oggi ti senti sotto pressione, non ribellarti né scappare: fai la tua parte, una riga alla volta",
+      "Non hai mai avuto bisogno di sentirti perfetto per avvicinarti a qualcuno.Nel 2013 sei riuscito a conquistare la ragazza più bella della scuola, anche senza sentirti il più sicuro o il più forte. Se oggi ti senti insicuro, non aspettare di sentirti all’altezza: presentati così come sei.",
   ],
   "curioso": [
     "Apri un libro a caso della libreria e studia un solo concetto.",
@@ -15,24 +19,33 @@
     "Prova un percorso diverso anche solo di 100 metri.",
     "Guarda un tutorial di 5 minuti su qualcosa che non sai.",
     "Quando qualcosa non funzionava, non ti fermavi. Nel 2010, davanti al limite dei 90 minuti di Megavideo, scoprìsti con curiosità come aggirarlo e studiasti VisualBasic che ti permise di inventare un programma per farlo. Segui la curiosità: anche smontare un argomento è già agire."
+    "Non soddisfatto delle facce dei giocatori su PES2011, trovasti il modo di accedere ai file originali e le modificasti manualmente.Segui la curiosità: anche smontare un argomento è già agire.",
+    "Cambia strumento per fare la stessa cosa, un nuovo strumento AI o un nuovo software",
+      "Testa un’idea solo per capire se funziona",
   ],
   "dopaminico": [
     "Quando l’energia era alta, sapevi trasformarla in qualcosa di concreto. Sfruttando la bolla degli NFT, hai creato un progetto da 300k. Incala l’energia: una cosa fatta vale più di dieci pensate.",
-    "Usa lo slancio: chiudi una cosa rimasta aperta."
+    "Usa lo slancio: chiudi una cosa rimasta aperta.",
+      "Costruisci una prima versione di un progetto, o di un video.",
+      "Quando qualcosa ti frustrava, lo trasformavi in progetto. Nel 2010 creasti un motore di ricerca per trovare i link ai film senza perdere tempo. Usa l’energia per costruire subito, non per rimandare.",
+      "Nel momento giusto hai sfruttato la bolla degli NFT, trasformando un’idea in un progetto che ha raggiunto i 300k.Se ora sei carico, non rallentare per paura di sbagliare: fai una mossa concreta finché l’energia è viva.", 
   ],
   "disilluso": [
     "Le ingiustizie non ti hanno mai fermato davvero. Hai continuato a costruire anche quando ti mettevano i bastoni tra le ruote. Non reagire di rabbia: reagisci con chiarezza.",
     "Anche quando il sistema ti ha deluso, non ti sei piegato. Sei andato in causa con una grossa agenzia di Milano, e hai vinto. Se oggi sei disilluso, resta lucido: una mossa alla volta basta.",
-    "Chiedi aiuto a una persona: una frase sola.",
-    "Non reagire emotivamente, reagisci lucidamente. Stacca tutto, fai qualcosa di completamente opposto: sei deluso sul lavoro? Vai in palestra, vai a correre, esci con amici."
-  ],
+    "Non reagire emotivamente, reagisci lucidamente. Stacca tutto, fai qualcosa di completamente opposto: sei deluso sul lavoro? Vai in palestra, vai a correre, esci con amici.",
+      "Quando qualcosa non era all’altezza, non ti sei mai adattato.Perché farlo ora?",
+      "Se oggi sei deluso, non lamentarti: intervieni dove puoi migliorare le cose.",
+  ], 
   "rilassato": [
     "Quando ti sei concesso spazio, hai trovato equilibrio. Hai iniziato a fare serata, conoscere persone nuove e vivere con più leggerezza. Se sei rilassato, non accelerare: goditi il momento e ricaricati.",
     "Non riempire subito lo spazio.",
     "Goditi il momento senza ottimizzarlo.",
     "Fai qualcosa solo per piacere: cucinati un piatto che ti piace, vai in ristorante, fatti una passeggiata, vai per negozi.",
     "Fai una passeggiata breve senza telefono.",
-    "Goditi 2 minuti di silenzio, senza ottimizzare niente."
+    "Goditi 2 minuti di silenzio, senza ottimizzare niente.",
+    "Ricaricati senza sensi di colpa.",
+    "Quando ti sei permesso più equilibrio, la tua vita si è ampliata. Hai iniziato a frequentare nuove persone e vivere con più leggerezza. Lascia che la calma faccia il suo lavoro."  
   ],
   "triste": [
     "La tristezza non ha mai cancellato quello che sei. Hai attraversato fasi difficili senza smettere di cercare equilibrio. Concediti lentezza, non giudizio.",
@@ -41,20 +54,14 @@
     "Anche quando ti sentivi spento, non ti sei mai perso davvero. Hai cambiato città, contesti e abitudini per stare meglio. Se oggi sei triste, non isolarti completamente."
   ],
   "nostalgico": [
+    "Hai fatto molta più strada di quanto a volte ricordi. Sei partito da un bambino timido e sei arrivato a vivere a Milano, realizzando un sogno che avevi da tempo. Quando sei nostalgico, non restare nel passato: usalo per ricordarti chi sei diventato.",
+   "Guardando indietro, non stai perdendo tempo. Hai realizzato sogni che una volta sembravano lontani. Lascia che i ricordi ti rafforzino, non ti trattengano.",
     {
-      "text": "Hai fatto molta più strada di quanto a volte ricordi. Sei partito da un bambino timido e sei arrivato a vivere a Milano, realizzando un sogno che avevi da tempo. Quando sei nostalgico, non restare nel passato: usalo per ricordarti chi sei diventato.",
+      "text": "Guarda una foto e poi chiudi: tieni il calore, lascia andare il resto:",
       "image": "assets/popup/nostalgia1.jpeg"
     },
     {
-      "text": "Guardando indietro, non stai perdendo tempo. Hai realizzato sogni che una volta sembravano lontani. Lascia che i ricordi ti rafforzino, non ti trattengano.",
-      "image": "assets/popup/nostalgia1.jpeg"
-    },
-    {
-      "text": "Guarda una foto e poi chiudi: tieni il calore, lascia andare il resto.",
-      "image": "assets/popup/nostalgia1.jpeg"
-    },
-    {
-      "text": "Hai già vissuto versioni molto diverse di te. Ogni fase ti ha portato dove sei ora. Usa i ricordi per rafforzarti, non per fermarti.",
+      "text": "Hai già vissuto versioni molto diverse di te. Ogni fase ti ha portato dove sei ora. Usa i ricordi per rafforzarti, non per fermarti:",
       "image": "assets/popup/nostalgia1.jpeg"
     }
   ],
@@ -67,7 +74,10 @@
     "Decidi per oggi, non per sempre.",
     "Le scelte importanti non le hai mai prese a colpo sicuro. Hai deciso di andare a vivere a Milano inseguendo un’idea, non una garanzia. Quando sei indeciso, scegli il contesto che ti fa crescere.",
     "Decidi solo il prossimo passo e agisci!",
-    "Evita di pianificare troppo, ti frega sempre!"
+    "Evita di pianificare troppo, ti frega sempre!",
+      "Le scelte giuste per te non sono mai state quelle più approvate dagli altri.",
+      "Nonostante i pareri contrastanti dei docenti, sei riuscito a entrare allo IED seguendo la tua direzione.",
+      "Quando sei incerto, smetti di cercare consenso: chiediti solo se questa scelta ti rappresenta.",
   ],
   "spompato": [
     "Modalità energia minima: doccia, acqua, 1 compito minuscolo.",
@@ -76,13 +86,16 @@
     "La costanza ti ha sempre salvato, non l’energia. Hai trasformato il tuo corpo in due anni, senza scorciatoie. Oggi basta iniziare, anche piano.",
     "Hai sempre vinto facendo poco alla volta, non facendo tutto insieme. Se sei stanco, fai solo il prossimo passo.",
     "Hai sempre retto le cose lunghe. Anche quando era faticoso, hai portato a termine ciò che avevi iniziato. Oggi basta esserci, non performare.",
-    "Fai solo l’inizio, per 30 minuti di seguito."
+    "Fai solo l’inizio, per 30 minuti di seguito.",
+      "La tua forza non è mai stata l’intensità, ma la continuità.",
+      "Se oggi sei stanco, non cercare slancio: cerca solo continuità. Non iniziare niente di nuovo, continua qualcosa di vecchio.",
   ],
   "felice": [
     "Quando hai creduto in te, i risultati sono arrivati. Ti sei laureato con 110 e lode, diventando il migliore della tua Università. Se sei felice, prenditi un attimo per riconoscerti: te lo sei meritato.",
     "Fai una foto mentale: cosa rende questo momento così?",
     "Fermati un attimo e riconosci ciò che hai fatto.",
     "Segna questo momento.",
-    "Condividilo con qualcuno."
+    "Condividilo con qualcuno. Anche una storia social, o un messaggio a qualche amico, una chiamata ai tuoi genitori.",
+      "Quando hai avuto fiducia nelle tue capacità, hai creato valore reale. Sei entrato in una società che non fatturava nulla e l’hai portata a 100k in un anno. Ricordati cosa succede quando credi davvero in quello che fai.",
   ]
 }
