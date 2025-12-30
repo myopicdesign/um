@@ -120,16 +120,21 @@ window.openModalForMood = async function (moodName) {
 
   const modalImage = document.getElementById("modalImage");
 
+  // ✅ RESET SEMPRE (hidden + display + src)
+  if (modalImage) {
+    modalImage.hidden = true;
+    modalImage.style.display = "none";
+    modalImage.removeAttribute("src");
+  }
+
   if (!Array.isArray(list) || list.length === 0) {
     modalText.textContent = "“…”";
-    if (modalImage) modalImage.hidden = true;
     modal.classList.add("is-open");
     modal.setAttribute("aria-hidden", "false");
     return;
   }
 
   const { state, storageKey } = getShuffleState(key, list.length);
-
   const msgIndex = state.order[state.index];
   const message = list[msgIndex];
 
@@ -140,23 +145,22 @@ window.openModalForMood = async function (moodName) {
   }
   saveShuffleState(storageKey, state);
 
-  // ✅ supporto stringa o oggetto {text,image}
   if (typeof message === "string") {
     modalText.textContent = `“${message}”`;
-    if (modalImage) modalImage.hidden = true;
   } else {
     modalText.textContent = `“${message.text || "…"}”`;
+
     if (modalImage && message.image) {
       modalImage.src = message.image;
       modalImage.hidden = false;
-    } else if (modalImage) {
-      modalImage.hidden = true;
+      modalImage.style.display = "block";
     }
   }
 
   modal.classList.add("is-open");
   modal.setAttribute("aria-hidden", "false");
 };
+
 
 // preload
 loadMoodMessages();
