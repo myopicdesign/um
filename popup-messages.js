@@ -3,9 +3,6 @@ const MOOD_DATA_URL = "./data.json";
 let moodMessages = null;
 let moodMessagesPromise = null;
 
-/* =========================
-   UTILS
-========================= */
 function slugMood(label) {
   return (label || "")
     .toLowerCase()
@@ -23,9 +20,6 @@ function shuffleArray(arr) {
   return a;
 }
 
-/* =========================
-   LOAD DATA
-========================= */
 function loadMoodMessages() {
   if (moodMessages) return Promise.resolve(moodMessages);
   if (moodMessagesPromise) return moodMessagesPromise;
@@ -48,9 +42,47 @@ function loadMoodMessages() {
   return moodMessagesPromise;
 }
 
-/* =========================
-   SHUFFLE STATE (per mood)
-========================= */
+// ✅ Fullscreen viewer (una volta sola)
+(function setupImageViewer(){
+  const viewer = document.createElement("div");
+  viewer.className = "image-viewer";
+  viewer.setAttribute("aria-hidden", "true");
+
+  const img = document.createElement("img");
+  img.alt = "";
+  viewer.appendChild(img);
+
+  document.body.appendChild(viewer);
+
+  function open(src){
+    if (!src) return;
+    img.src = src;
+    viewer.classList.add("is-open");
+    viewer.setAttribute("aria-hidden", "false");
+  }
+
+  function close(){
+    viewer.classList.remove("is-open");
+    viewer.setAttribute("aria-hidden", "true");
+    img.src = "";
+  }
+
+  viewer.addEventListener("click", close);
+  window.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") close();
+  });
+
+  // collega il click dell'immagine del modal
+  const modalImage = document.getElementById("modalImage");
+  if (modalImage) {
+    modalImage.addEventListener("click", (e) => {
+      e.stopPropagation();
+      open(modalImage.src);
+    });
+  }
+})();
+
+
 function getShuffleState(key, total) {
   const storageKey = `looply_shuffle_${key}`;
   let state = null;
@@ -81,16 +113,16 @@ function saveShuffleState(storageKey, state) {
   } catch {}
 }
 
-/* =========================
-   OVERRIDE MODAL (CORE)
-========================= */
 window.openModalForMood = async function (moodName) {
   const key = slugMood(moodName);
   const data = await loadMoodMessages();
   const list = data[key];
 
+  const modalImage = document.getElementById("modalImage");
+
   if (!Array.isArray(list) || list.length === 0) {
     modalText.textContent = "“…”";
+    if (modalImage) modalImage.hidden = true;
     modal.classList.add("is-open");
     modal.setAttribute("aria-hidden", "false");
     return;
@@ -102,19 +134,29 @@ window.openModalForMood = async function (moodName) {
   const message = list[msgIndex];
 
   state.index++;
-
-  // se finisce il mazzo → rimescola
   if (state.index >= state.order.length) {
     state.order = shuffleArray(state.order);
     state.index = 0;
   }
-
   saveShuffleState(storageKey, state);
 
-  modalText.textContent = `“${message}”`;
+  // ✅ supporto stringa o oggetto {text,image}
+  if (typeof message === "string") {
+    modalText.textContent = `“${message}”`;
+    if (modalImage) modalImage.hidden = true;
+  } else {
+    modalText.textContent = `“${message.text || "…"}”`;
+    if (modalImage && message.image) {
+      modalImage.src = message.image;
+      modalImage.hidden = false;
+    } else if (modalImage) {
+      modalImage.hidden = true;
+    }
+  }
+
   modal.classList.add("is-open");
   modal.setAttribute("aria-hidden", "false");
 };
 
-/* preload */
+// preload
 loadMoodMessages();
