@@ -1,14 +1,14 @@
 const moods = [
-  { label:"ansioso",    accent:"#74f79a", img:"assets/avatar/ansioso.png" },
-  { label:"disilluso",    accent:"#74f79a", img:"assets/avatar/disilluso.png" },
-  { label:"triste", accent:"#ffd35a", img:"assets/avatar/triste.png" },
-  { label:"incerto",   accent:"#ff7ad9", img:"assets/avatar/incerto.png" },
-  { label:"spompato",  accent:"#74f79a", img:"assets/avatar/spompato.png" },
-  { label:"nostalgico",   accent:"#ffd35a", img:"assets/avatar/nostalgico.png" },
-  { label:"rilassato", accent:"#78a6ff", img:"assets/avatar/rilassato.png" },
-  { label:"curioso",    accent:"#b892ff", img:"assets/avatar/curioso.png" },
-  { label:"dopaminico",   accent:"#ff8e6b", img:"assets/avatar/motivato.png" },
-  { label:"felice",     accent:"#ffd35a", img:"assets/avatar/felice.png" },
+  { label:"ansioso",     accent:"#74f79a", img:"assets/avatar/ansioso.png" },
+  { label:"disilluso",   accent:"#74f79a", img:"assets/avatar/disilluso.png" },
+  { label:"triste",      accent:"#ffd35a", img:"assets/avatar/triste.png" },
+  { label:"incerto",     accent:"#ff7ad9", img:"assets/avatar/incerto.png" },
+  { label:"spompato",    accent:"#74f79a", img:"assets/avatar/spompato.png" },
+  { label:"nostalgico",  accent:"#ffd35a", img:"assets/avatar/nostalgico.png" },
+  { label:"rilassato",   accent:"#78a6ff", img:"assets/avatar/rilassato.png" },
+  { label:"curioso",     accent:"#b892ff", img:"assets/avatar/curioso.png" },
+  { label:"dopaminico",  accent:"#ff8e6b", img:"assets/avatar/motivato.png" },
+  { label:"felice",      accent:"#ffd35a", img:"assets/avatar/felice.png" }
 ];
 
 const mask = document.getElementById("mask");
@@ -25,7 +25,6 @@ const closeModalBtn = document.getElementById("closeModal");
 const modalText = document.getElementById("modalText");
 
 // ====== BUILD BARS ======
-// più barre totali = wrap più pulito quando riduci gap (visivamente migliore)
 const BAR_COUNT = 820;
 for (let i=0;i<BAR_COUNT;i++){
   const b=document.createElement("div");
@@ -80,7 +79,6 @@ function readCSSNumber(varName){
 let BAR_W=0, GAP=0, STEP=0, LOOP=0;
 let gapCenterInStep=0;
 
-// 🔥 loop più grande perché ora hai più barre visibili (densità maggiore)
 const LOOP_STEPS = 120;
 
 function refreshBarMetrics(){
@@ -122,7 +120,6 @@ function autoPadBarsToCenterGap(){
   document.documentElement.style.setProperty("--bars-pad", `${newPad}px`);
 }
 
-// larghezza avatar-cell = larghezza label (centri identici)
 function syncAvatarCellWidthsToLabels(){
   for (let i=0;i<labelEls.length;i++){
     avatarCellEls[i].style.width = labelEls[i].offsetWidth + "px";
@@ -225,11 +222,9 @@ function onInput(delta){
 function animate(){
   currentX += (targetX-currentX)*EASE;
 
-  // sync labels + avatars
   labelsTrack.style.transform  = `translate3d(${currentX}px,0,0)`;
   avatarsTrack.style.transform = `translate3d(${currentX}px,0,0)`;
 
-  // bars
   const atRest = Math.abs(targetX-currentX) < 0.25;
   let base = -currentX;
 
