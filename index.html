@@ -1,28 +1,27 @@
 <!doctype html>
 <html lang="it">
 <head>
-
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+
+  <title>Looply – Mood</title>
+
+  <!-- PWA -->
   <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#050607">
 
-<meta name="theme-color" content="#050607">
+  <!-- iOS standalone -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Umore">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
 
-<!-- iOS standalone -->
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Umore">
-
-<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
-
-    <title>Looply – Mood</title>
-
-
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -30,12 +29,7 @@
 <body>
   <div class="app">
     <header class="top">
-      <img
-  class="logo"
-  src="assets/img/logo.png"
-  alt="Looply"
-/>
-
+      <img class="logo" src="assets/img/logo.png" alt="Looply" />
       <h1 class="title">Ciao Fabri,<br>come stai oggi?</h1>
     </header>
 
@@ -51,7 +45,7 @@
         <div class="center"></div>
       </section>
 
-      <!-- LABELS (SUBITO SOTTO) -->
+      <!-- LABELS -->
       <section class="selector" id="selector" aria-label="Selettore stati d'animo">
         <div class="highlight" id="highlight"></div>
         <div class="labels-viewport">
@@ -64,20 +58,26 @@
     <div id="modal" class="modal" aria-hidden="true">
       <div class="modal-card" role="dialog" aria-modal="true">
         <button id="closeModal" class="modal-close" aria-label="Chiudi">✕</button>
+
         <div class="modal-title">Un consiglio<br>dal te del passato:</div>
+
+        <!-- ✅ immagine opzionale -->
+        <img id="modalImage" class="modal-image" alt="" hidden>
+
         <div id="modalText" class="modal-text">“…”</div>
       </div>
     </div>
   </div>
 
+  <!-- JS -->
   <script src="app.js"></script>
-    <script src="app.js"></script>
-<script src="popup-messages.js"></script>
+  <script src="popup-messages.js"></script>
 
-    <script>
-  if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("./sw.js");
-  }
-</script>
+  <!-- SW -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("./sw.js");
+    }
+  </script>
 </body>
 </html>
