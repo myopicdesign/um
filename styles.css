@@ -17,8 +17,7 @@
   --title-size: clamp(30px, 6.6vw, 48px);
   --img-size: clamp(150px, 24vh, 220px);
 
-  --track-gap: clamp(24px, 4vw, 32px);
-
+  --track-gap: 18px;
   --track-pad: 18px;
 
   --mask-h: 128px;
@@ -134,9 +133,13 @@ body{
 }
 
 .avatars-track{
+  position:absolute;
+  inset: 0 auto 0 0;
   display:flex;
   align-items:center;
   gap: var(--track-gap);
+  padding: 0 var(--track-pad);
+  will-change: transform;
 }
 
 .avatar-cell{
