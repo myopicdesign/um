@@ -3,15 +3,15 @@
     "Ti sei sempre esposto anche quando avevi paura. Alle elementari e alle medie hai cantato davanti a 500 persone, pur sentendoti timido. Se oggi ti senti osservato, ricordati che puoi agire lo stesso.",
     "Scrivi su una nota: cosa posso controllare oggi, in 5 minuti?",
     {
-      "text": "L’ansia non ti ha mai fermato davvero. Ti ha solo accompagnato. Alla scuola materna, nonostante fossi introverso, hai avuto il coraggio di salire su un palco e fare il protagonista di una recita. Non aspettare di sentirti calmo: fai una cosa piccola mentre l’ansia è ancora lì.",
+      "text": "L’ansia non ti ha mai fermato davvero. Ti ha solo accompagnato. Alla scuola materna, nonostante fossi introverso, hai avuto il coraggio di salire su un palco e fare il protagonista di una recita. Non aspettare di sentirti calmo fai una cosa piccola mentre l’ansia è ancora lì.",
       "image": "assets/popup/recita.png"
     },
     {
-      "text": "L’ansia non è mai stata un segnale di stop, ma di importanza. Nel 2025 hai parlato davanti a oltre 400 persone in un teatro a Bari. Se oggi senti pressione, non scappare: sei esattamente nel posto giusto.",
+      "text": "L’ansia non è mai stata un segnale di stop, ma di importanza. Nel 2025 hai parlato davanti a oltre 400 persone in un teatro a Bari. Se oggi senti pressione, non scappare sei esattamente nel posto giusto.",
       "image": "assets/popup/teatro.jpg"
     },
     {
-      "text": "Non hai mai avuto bisogno delle condizioni perfette per fare bene. Nel 2025 hai tenuto un workshop con 30 studenti a Bari e, nonostante ansia, preoccupazione e poco supporto, hai spaccato tutto. Se oggi le condizioni non sono ideali, non aspettare: inizia lo stesso.",
+      "text": "Non hai mai avuto bisogno delle condizioni perfette per fare bene. Nel 2025 hai tenuto un workshop con 30 studenti a Bari e, nonostante ansia, preoccupazione e poco supporto, hai spaccato tutto. Se oggi le condizioni non sono ideali, non aspettare inizia lo stesso.",
       "image": "assets/popup/workshop2.jpg"
     },
     {
@@ -25,13 +25,13 @@
     "Espòniti senza darti troppe spiegazioni.",
     "La pressione non ti ha mai fatto mollare.",
     "Quando una professoressa ti diede da scrivere 500 volte una frase di 5 righe per le vacanze, le portasti il foglio con tutte e 500 le frasi completate. Accettasti l'ansia nel dover completare la sfida.",
-    "Se oggi ti senti sotto pressione, non ribellarti né scappare: fai la tua parte, una riga alla volta.",
+    "Se oggi ti senti sotto pressione, non ribellarti né scappare fai la tua parte, una riga alla volta.",
     "Non hai mai avuto bisogno di sentirti perfetto per avvicinarti a qualcuno. Nel 2013 sei riuscito a conquistare la ragazza più bella della scuola, anche senza sentirti il più sicuro o il più forte. Se oggi ti senti insicuro, non aspettare di sentirti all’altezza: presentati così come sei.",
     "La tua competenza emerge soprattutto quando sei sotto pressione. Quando ti senti fragile, affidati a ciò che sai fare: ti sostiene più di quanto credi.",
     "Agisci prima di pensarci troppo.",
-    "Ricorda: l’ansia cala dopo l’azione, non prima.",
-    "Evita decisioni grandi: fai solo il primo passo.",
-    "Chiediti: “Cosa farebbe una versione calma di me, per 5 minuti?”"
+    "Ricorda l’ansia cala dopo l’azione, non prima.",
+    "Evita decisioni grandi fai solo il primo passo.",
+    "Chiediti “Cosa farebbe una versione calma di me, per 5 minuti?”"
   ],
   "curioso": [
     "Apri un libro a caso della libreria e studia un solo concetto.",
@@ -40,7 +40,7 @@
     "Guarda un tutorial di 5 minuti su qualcosa che non sai.",
     "Quando qualcosa non funzionava, non ti fermavi. Nel 2010, davanti al limite dei 90 minuti di Megavideo, scoprìsti con curiosità come aggirarlo e studiasti VisualBasic che ti permise di inventare un programma per farlo. Segui la curiosità: anche smontare un argomento è già agire.",
     "Non soddisfatto delle facce dei giocatori su PES2011, trovasti il modo di accedere ai file originali e le modificasti manualmente. Segui la curiosità: anche smontare un argomento è già agire.",
-    "Cambia strumento per fare la stessa cosa: un nuovo strumento AI o un nuovo software.",
+    "Cambia strumento per fare la stessa cosa un nuovo strumento AI o un nuovo software.",
     "Testa un’idea solo per capire se funziona.",
     "Segui la curiosità subito, prima che svanisca.",
     "Cambia strada, metodo o strumento.",
@@ -71,7 +71,7 @@
     "Hai lavorato per marchi come Luxottica, Nike, Rauch e Benetton. Quando dubiti di te, ricordati che non sei all’inizio: sei già stato scelto.",
     "Non ti sei mai improvvisato: ti sei costruito credibilità. Brand importanti ti hanno affidato il loro lavoro perché si fidavano di te. Se oggi ti senti sottovalutato, continua a lavorare con la stessa qualità: il resto arriva.",
     {
-      "text": "Quando fai bene il tuo lavoro, le persone giuste ti cercano. Il gruppo Il Pagante ti ha contattato per affidarti il restyling della loro identità, la Serie A ti ha chiesto una consulenza. Se oggi ti senti in dubbio: continua a creare, qualcuno sta già guardando.",
+      "text": "Quando fai bene il tuo lavoro, le persone giuste ti cercano. Il gruppo Il Pagante ti ha contattato per affidarti il restyling della loro identità, la Serie A ti ha chiesto una consulenza. Se oggi ti senti in dubbio continua a creare, qualcuno sta già guardando.",
       "image": "assets/popup/seriA.jpg"
     },
     "Ricordati che il tuo lavoro parla anche quando tu stai zitto.",
@@ -89,7 +89,7 @@
     "Quando ti sei concesso spazio, hai trovato equilibrio. Hai iniziato a fare serata, conoscere persone nuove e vivere con più leggerezza. Se sei rilassato, non accelerare: goditi il momento e ricaricati.",
     "Non riempire subito lo spazio.",
     "Goditi il momento senza ottimizzarlo.",
-    "Fai qualcosa solo per piacere: cucinati un piatto che ti piace, vai in ristorante, fatti una passeggiata, vai per negozi.",
+    "Fai qualcosa solo per piacere cucinati un piatto che ti piace, vai in ristorante, fatti una passeggiata, vai per negozi.",
     "Fai una passeggiata breve senza telefono.",
     "Goditi 2 minuti di silenzio, senza ottimizzare niente.",
     "Ricaricati senza sensi di colpa.",
@@ -104,9 +104,9 @@
   "triste": [
     "La tristezza non ha mai cancellato quello che sei. Hai attraversato fasi difficili senza smettere di cercare equilibrio. Concediti lentezza, non giudizio.",
     "In passato hai cambiato ritmo, abitudini e persone per stare meglio.",
-    "Fai qualcosa di semplice e neutro: non rimanere a letto, esci a farti una corsa o vai in palestra, prenota un tavolo al ristorante.",
+    "Fai qualcosa di semplice e neutro non rimanere a letto, esci a farti una corsa o vai in palestra, prenota un tavolo al ristorante.",
     "Anche quando ti sentivi spento, non ti sei mai perso davvero. Hai cambiato città, contesti e abitudini per stare meglio. Se oggi sei triste, non isolarti completamente.",
-    "Non cercare motivazione: cerca presenza.",
+    "Non cercare motivazione cerca presenza.",
     "Riduci drasticamente gli obiettivi.",
     "Muovi il corpo, anche lentamente. Vai in palestra, una passeggiata, una corsa.",
     "Evita di giudicare come ti senti.",
@@ -118,75 +118,75 @@
     "Hai fatto molta più strada di quanto a volte ricordi. Sei partito da un bambino timido e sei arrivato a vivere a Milano, realizzando un sogno che avevi da tempo. Quando sei nostalgico, non restare nel passato: usalo per ricordarti chi sei diventato.",
     "Guardando indietro, non stai perdendo tempo. Hai realizzato sogni che una volta sembravano lontani. Lascia che i ricordi ti rafforzino, non ti trattengano.",
     {
-      "text": "Guarda una foto e poi chiudi: tieni il calore, lascia andare il resto:",
+      "text": "Guarda una foto e poi chiudi tieni il calore, lascia andare il resto",
       "image": "assets/popup/famiglia.jpg"
     },
     {
-      "text": "Usa i ricordi come radici, non come rifugio:",
+      "text": "Usa i ricordi come radici, non come rifugio",
       "image": "assets/popup/famiglia1.jpg"
     },
     {
-      "text": "Hai già vissuto versioni molto diverse di te. Ogni fase ti ha portato dove sei ora. Usa i ricordi per rafforzarti, non per fermarti:",
+      "text": "Hai già vissuto versioni molto diverse di te. Ogni fase ti ha portato dove sei ora. Usa i ricordi per rafforzarti, non per fermarti",
       "image": "assets/popup/liceo3.png"
     },
     {
-      "text": "Ricorda cosa hai imparato, non solo cosa hai perso:",
+      "text": "Ricorda cosa hai imparato, non solo cosa hai perso",
       "image": "assets/popup/maecenas.png"
     },
     {
-      "text": "Evita di idealizzare troppo il passato:",
+      "text": "Evita di idealizzare troppo il passato",
       "image": "assets/popup/liceo.png"
     },
     {
-      "text": "Il tempo cambia le forme, non i legami:",
+      "text": "Il tempo cambia le forme, non i legami",
       "image": "assets/popup/famiglia5.jpg"
     },
     {
-      "text": "Scrivi cosa porteresti di quella fase nel presente:",
+      "text": "Scrivi cosa porteresti di quella fase nel presente",
       "image": "assets/popup/iopiccolo4.jpg"
     },
     {
-      "text": "Onora il percorso, non rimpiangerlo:",
+      "text": "Onora il percorso, non rimpiangerlo",
       "image": "assets/popup/laurea2.jpg"
     },
     {
-      "text": "Accetta che sei cambiato:",
+      "text": "Accetta che sei cambiato",
       "image": "assets/popup/versionediversadite.jpg"
     },
     {
-      "text": "Guarda avanti con la stessa curiosità di allora:",
+      "text": "Guarda avanti con la stessa curiosità di allora",
       "image": "assets/popup/iopiccolo2.jpg"
     },
     {
-      "text": "Usa la nostalgia per rafforzare l’identità:",
+      "text": "Usa la nostalgia per rafforzare l’identità",
       "image": "assets/popup/iopiccolo3.jpg"
     },
     {
-      "text": "Le radici non trattengono, sostengono:",
+      "text": "Le radici non trattengono, sostengono",
       "image": "assets/popup/famiglia5.jpg"
     },
     {
-      "text": "Quella versione di te ha fatto il suo lavoro. Ora tocca a questa:",
+      "text": "Quella versione di te ha fatto il suo lavoro. Ora tocca a questa",
       "image": "assets/popup/liceo2.png"
     },
     {
-      "text": "Non stai rimpiangendo chi eri, stai riconoscendo quanto sei cambiato:",
+      "text": "Non stai rimpiangendo chi eri, stai riconoscendo quanto sei cambiato",
       "image": "assets/popup/natale-piccoli.png"
     },
     {
-      "text": "Ogni fase che ricordi ti ha portato qui. Nessuna è andata persa:",
+      "text": "Ogni fase che ricordi ti ha portato qui. Nessuna è andata persa",
       "image": "assets/popup/timidezza2.jpg"
     },
     {
-      "text": "Il passato ti commuove perché ti ha costruito, non perché ti manca:",
+      "text": "Il passato ti commuove perché ti ha costruito, non perché ti manca",
       "image": "assets/popup/timidezza3.jpg"
     },
     {
-      "text": "Non stai perdendo la tua famiglia: stai vivendo la tua strada:",
+      "text": "Non stai perdendo la tua famiglia stai vivendo la tua strada",
       "image": "assets/popup/famiglia4.jpg"
     },
     {
-      "text": "Quello che ti manca non è il tempo passato, ma come ti sentivi in quel tempo:",
+      "text": "Quello che ti manca non è il tempo passato, ma come ti sentivi in quel tempo",
       "image": "assets/popup/famiglia3.jpg"
     }
   ],
@@ -202,14 +202,14 @@
     "Evita di pianificare troppo, ti frega sempre!",
     "Le scelte giuste per te non sono mai state quelle più approvate dagli altri.",
     "Nonostante i pareri contrastanti dei docenti, sei riuscito a entrare allo IED seguendo la tua direzione.",
-    "Quando sei incerto, smetti di cercare consenso: chiediti solo se questa scelta ti rappresenta.",
+    "Quando sei incerto, smetti di cercare consenso chiediti solo se questa scelta ti rappresenta.",
     "All’inizio avevi paura, ma non hai smesso di crederci. Nonostante l’incertezza, hai continuato a fare video sui social fino a ottenere incontri con la Serie A di calcio, anche quando tutti dicevano che era tempo perso. Se oggi dubiti, non fermarti a chiedere conferme: le cose importanti le hai costruite quando nessuno ci credeva.",
     "Nulla di ciò che hai costruito è nato per caso. Ogni piccola collaborazione è diventata una connessione che ha generato altre relazioni, più socialità, opportunità ed esperienze. Un contatto in più ti ha spesso portato altri contatti, e a volte più lavoro, altre volte più vita. Oggi coltiva una relazione, non un obiettivo.",
     "Il tuo punto di vista ha valore, anche quando lo sottovaluti. La Serie A di calcio ti ha chiesto una consulenza, cercando il tuo parere. Se oggi dubiti di te, ricordati che chi conta ha già ascoltato la tua voce.",
     "Non sei più solo uno che impara: sei uno che viene consultato. Un’istituzione importante ha chiesto il tuo punto di vista professionale. Quando ti senti incerto, parla: la tua esperienza è già utile.",
     "Muoviti prima, chiarisci dopo.",
     "Fai una scelta che ti dia informazioni, non sicurezza.",
-    "Chiediti: “Quale scelta mi farà crescere?”",
+    "Chiediti “Quale scelta mi farà crescere?”",
     "Smetti di chiedere pareri quando senti di averne già troppi."
   ],
   "spompato": [
@@ -217,7 +217,7 @@
     "Riduci tutto a 5 minuti: se fai 5, hai vinto.",
     "Riposo attivo: sistema solo una cosa, poi stop.",
     {
-      "text": "La costanza ti ha sempre salvato, non l’energia. Hai trasformato il tuo corpo in due anni, senza scorciatoie. Oggi basta iniziare, anche piano:",
+      "text": "La costanza ti ha sempre salvato, non l’energia. Hai trasformato il tuo corpo in due anni, senza scorciatoie. Oggi basta iniziare, anche piano",
       "image": "assets/popup/palestra.jpg"
     },
     "Hai sempre vinto facendo poco alla volta, non facendo tutto insieme. Se sei stanco, fai solo il prossimo passo.",
@@ -230,7 +230,7 @@
     "Prepara l’ambiente, anche se non agisci.",
     "Evita di recuperare.",
     "Riposa senza sensi di colpa.",
-    "Ricorda: la costanza non richiede energia alta.",
+    "Ricorda la costanza non richiede energia alta.",
     "Riduci, non eliminare.",
     "Fai qualcosa che mantenga il filo.",
     "Fermati prima di esaurirti.",
@@ -238,7 +238,7 @@
   ],
   "felice": [
     {
-      "text": "Quando hai creduto in te, i risultati sono arrivati. Ti sei laureato con 110 e lode, diventando il migliore della tua Università. Se sei felice, prenditi un attimo per riconoscerti: te lo sei meritato.",
+      "text": "Quando hai creduto in te, i risultati sono arrivati. Ti sei laureato con 110 e lode, diventando il migliore della tua Università. Se sei felice, prenditi un attimo per riconoscerti te lo sei meritato.",
       "image": "assets/popup/Laurea.png"
     },
     "Fai una foto mentale: cosa rende questo momento così?",
