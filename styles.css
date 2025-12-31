@@ -17,7 +17,7 @@
   --title-size: clamp(30px, 6.6vw, 48px);
   --img-size: clamp(150px, 24vh, 220px);
 
-  --track-gap: 24px; /* prima era 18 */
+  --track-gap: 18px;
   --track-pad: 18px;
 
   --mask-h: 128px;
@@ -148,36 +148,23 @@ body{
   display:flex;
   align-items:center;
   justify-content:center;
-  position:relative;
-  isolation: isolate;
 }
 
-/* default: NON attivo */
 .avatar{
   width: var(--img-size);
   height: var(--img-size);
   object-fit: cover;
-
-  filter: brightness(.6);
+  opacity: .28;
   transform: scale(.90);
-
-  transition: transform .22s ease, filter .22s ease;
+  transition: transform .22s ease, opacity .22s ease;
   -webkit-user-drag:none;
   user-select:none;
-
-  position:relative;
-  z-index:1;
 }
 
-/* attivo: sopra a tutti */
 .avatar.active{
-  filter: none;
+  opacity: 1;
   transform: scale(1);
-
-  z-index:5;          /* sufficiente */
 }
-
-
 
 /* INDICATORE */
 .mask{
