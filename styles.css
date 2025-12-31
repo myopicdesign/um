@@ -17,7 +17,7 @@
   --title-size: clamp(30px, 6.6vw, 48px);
   --img-size: clamp(150px, 24vh, 220px);
 
-  --track-gap: 18px;
+  --track-gap: 24px; /* prima era 18 */
   --track-pad: 18px;
 
   --mask-h: 128px;
@@ -152,17 +152,16 @@ body{
   isolation: isolate;
 }
 
+/* default: NON attivo */
 .avatar{
   width: var(--img-size);
   height: var(--img-size);
   object-fit: cover;
 
-  /* ⛔ niente opacity: evita bleed dell’avatar sotto */
-  filter: brightness(.65);
-
+  filter: brightness(.6);
   transform: scale(.90);
-  transition: transform .22s ease, filter .22s ease;
 
+  transition: transform .22s ease, filter .22s ease;
   -webkit-user-drag:none;
   user-select:none;
 
@@ -170,11 +169,14 @@ body{
   z-index:1;
 }
 
+/* attivo: sopra a tutti */
 .avatar.active{
   filter: none;
   transform: scale(1);
-  z-index:10;
+
+  z-index:5;          /* sufficiente */
 }
+
 
 
 /* INDICATORE */
