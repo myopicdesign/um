@@ -142,24 +142,12 @@ body{
   will-change: transform;
 }
 
-.avatar{
-  width: var(--img-size);
-  height: var(--img-size);
-  object-fit: cover;
-
-  /* ⛔ non usare opacity: fa vedere quello sotto */
-  opacity: 1;
-
-  /* ✅ stesso “effetto spento” ma senza trasparenza */
-  filter: brightness(.62) saturate(.9);
-
-  transform: scale(.90);
-  transition: transform .22s ease, filter .22s ease;
-  -webkit-user-drag:none;
-  user-select:none;
-
-  position: relative;
-  z-index: 1;
+.avatar-cell{
+  flex: 0 0 auto;
+  height: calc(var(--img-size) + 10px);
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
 .avatar{
@@ -174,9 +162,8 @@ body{
 }
 
 .avatar.active{
-  filter: none;
+  opacity: 1;
   transform: scale(1);
-  z-index: 2;
 }
 
 /* INDICATORE */
