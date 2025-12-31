@@ -17,7 +17,7 @@
   --title-size: clamp(30px, 6.6vw, 48px);
   --img-size: clamp(150px, 24vh, 220px);
 
-  --track-gap: 18px;
+  --track-gap: 32px;
   --track-pad: 18px;
 
   --mask-h: 128px;
