@@ -148,23 +148,34 @@ body{
   display:flex;
   align-items:center;
   justify-content:center;
+  position:relative;
+  isolation: isolate;
 }
 
 .avatar{
   width: var(--img-size);
   height: var(--img-size);
   object-fit: cover;
-  opacity: .28;
+
+  /* ⛔ niente opacity: evita bleed dell’avatar sotto */
+  filter: brightness(.65);
+
   transform: scale(.90);
-  transition: transform .22s ease, opacity .22s ease;
+  transition: transform .22s ease, filter .22s ease;
+
   -webkit-user-drag:none;
   user-select:none;
+
+  position:relative;
+  z-index:1;
 }
 
 .avatar.active{
-  opacity: 1;
+  filter: none;
   transform: scale(1);
+  z-index:10;
 }
+
 
 /* INDICATORE */
 .mask{
